@@ -1,0 +1,13 @@
+<view class="bg">
+  <scroll-view class="box">
+    <view class="list" wx:for="{{list}}" wx:for-item="item" wx:key="item">
+      <view class="list_box" bindtap='toDetails' data-item='{{item}}'>
+        <image class="list_img" src="{{item.image}}" />
+        <view>
+          <view class="name">{{item.name}}</view>
+          <view class="intro">{{item.intro}}</view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

@@ -1,0 +1,41 @@
+.bg {
+  background-color: aqua;
+}
+
+.box {
+  padding-top: 50rpx;
+  height: 100vh;
+}
+
+.list_box {
+  width: 700rpx;
+  height: 200rpx;
+  background-color: white;
+  border-radius: 25rpx;
+  margin: 25rpx 0 0 25rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list_img {
+  height: 150rpx;
+  width: 100rpx;
+  margin: 20rpx;
+}
+
+.name {
+  font-size: 32rpx;
+  font-weight: 700;
+  margin-top: 20rpx;
+}
+
+.intro {
+  width: 300rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  width: 280px;
+  font-size: 26rpx;
+  color: #d2c1c5;
+}

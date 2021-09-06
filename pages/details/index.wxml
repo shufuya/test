@@ -1,0 +1,9 @@
+<view class="bg">
+  <view style="height:50rpx"></view>
+  <view class="box">
+    <image class="image" src="{{list.image}}" />
+    <view class="name">{{list.name}}</view>
+    <view class="intro">{{list.intro}}</view>
+    <button>观看电影</button>
+  </view>
+</view>

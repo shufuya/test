@@ -1,0 +1,37 @@
+.bg {
+  background-color: aqua;
+  height: 100vh;
+}
+
+.box {
+  width: 700rpx;
+  background-color: white;
+  border-radius: 25rpx;
+  margin: 25rpx 0 0 25rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 400rpx;
+  width: 350rpx;
+  margin: 20rpx 0 0 184rpx;
+}
+
+.name {
+  width: 700rpx;
+  text-align: center;
+  margin-top: 50rpx;
+  font-size: 50rpx;
+  font-weight: 700;
+}
+
+.intro {
+  margin: 20rpx;
+}
+
+button {
+  width: 700rpx;
+  background-color: orange;
+  margin-bottom: 50rpx;
+}
